@@ -6,5 +6,6 @@ char* welcome() {
 
 int main() {
     float a;
+    scanf("%d",&a);
     a>=18?printf("Eligible"):printf("Not Eligible");
 }
