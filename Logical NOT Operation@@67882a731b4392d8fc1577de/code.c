@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
-    scanf("%d%d",&a,&b);
+    int a;
+    scanf("%d",&a);
     a>!0?printf("True"):printf("False");
 }
