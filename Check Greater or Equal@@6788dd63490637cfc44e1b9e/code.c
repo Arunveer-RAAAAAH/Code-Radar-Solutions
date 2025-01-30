@@ -7,5 +7,5 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    a>=b?printf("Yes"):printf("No")
+    a>=b?printf("Yes"):printf("No");
 }
