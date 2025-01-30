@@ -9,6 +9,5 @@ int main() {
     scanf("%d",&a);
 
     if(a>=90)
-    printf('A');
-    
+    printf("A");
 }
