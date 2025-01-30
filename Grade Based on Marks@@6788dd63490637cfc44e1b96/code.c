@@ -10,14 +10,14 @@ int main() {
 
     switch(a){
         case a>=90:
-        printf('A');
+        printf("A");
         case a>=80 && a<90:
-        printf('B');
+        printf("B");
         case a>=70 && a<80:
-        printf('C');
+        printf("C");
         case a>=60 && a<70:
-        printf('D');
+        printf("D");
         case a<60:
-        printf('F');
+        printf("F");
     }
 }
