@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b,c;
-    scanf("%d%d%d",&a,&b,%c);
+    scanf("%d%d%d",&a,&b,&c);
     
     (a==b)&&(a==c)?printf("Equilateral"):(a==b)&&(b==c)?printf("Isosceles"):printf("Scalene");
 }
