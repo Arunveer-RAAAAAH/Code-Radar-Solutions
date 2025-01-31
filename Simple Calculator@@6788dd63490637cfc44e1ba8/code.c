@@ -9,7 +9,7 @@ int main() {
     char c;
     scanf("%d%d%c",&a,&b,&c);
     switch(c){
-        case "+":
+        case +:
             printf("%d",a+b);
             break;
     }
