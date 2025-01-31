@@ -6,5 +6,8 @@ char* welcome() {
 
 int main() {
     int a;
-    a<=0?printf("Freezing"):printf("Above Freezing");
+    if(a<=0)
+    printf("Freezing");
+    else
+    printf("Above Freezing");
 }
