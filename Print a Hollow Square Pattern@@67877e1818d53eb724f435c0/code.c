@@ -11,7 +11,7 @@ int main() {
     char arr[n][n]={};
     int rowStart=0,colStart=0,rowEnd=n-1,colEnd=n-1;
 
-    while(rowStart<=rowEnd && colStart<= colEnd){
+    while(rowStart<=rowEnd && colStart<=colEnd){
         for(int i=colStart;i<=colEnd;i++){
             arr[rowStart][i]='*';
         }
@@ -23,6 +23,7 @@ int main() {
         for(int i=colEnd;i>=colStart;i--){
             arr[rowEnd][i]='*';
         }
+        rowEnd--;
         for(int i=rowEnd;i>=rowStart;i--){
             arr[i][colStart]='*';
         }
