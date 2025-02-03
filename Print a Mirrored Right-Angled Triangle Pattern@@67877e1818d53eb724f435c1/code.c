@@ -12,6 +12,9 @@ int main() {
         for(int j=1;j<=space;j++){
             printf("1");
         }
+        for(int j=1;j<i;j++){
+            printf("*");
+        }
         space--;
         printf("\n");
     }
