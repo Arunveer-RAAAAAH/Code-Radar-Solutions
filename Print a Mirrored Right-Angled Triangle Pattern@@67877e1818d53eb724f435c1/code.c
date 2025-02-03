@@ -10,7 +10,7 @@ int main() {
     int space=row-1;
     for(int i=1;i<row;i++){
         for(int j=1;j<=space;j++){
-            printf("1");
+            printf(" ");
         }
         for(int j=1;j<=i;j++){
             printf("*");
