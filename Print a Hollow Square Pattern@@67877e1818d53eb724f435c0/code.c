@@ -8,7 +8,12 @@ int main() {
     int n;
     scanf("%d",&n);
 
-    char arr[n][n]={};
+    char arr[n][n];
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            arr[i][j]='\0';
+        }
+    }
     int rowStart=0,colStart=0,rowEnd=n-1,colEnd=n-1;
 
     while(rowStart<=rowEnd && colStart<=colEnd){
@@ -33,11 +38,10 @@ int main() {
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(arr[i][j]=='\0')
-            printf(" ");
+                printf(" ");
             else
-            printf("%c",arr[i][j]);
+                printf("%c",arr[i][j]);
         }
         printf("\n");
-
     }
 }
