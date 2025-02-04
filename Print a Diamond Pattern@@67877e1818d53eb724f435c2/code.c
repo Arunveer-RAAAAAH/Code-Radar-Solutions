@@ -25,7 +25,7 @@ int main() {
 
     //part 2
     spaces=1;
-    for(int i=1;i<=row;i++){
+    for(int i=1;i<row;i++){
         for(int j=1;j<=spaces;j++){
             printf("1");
         }
