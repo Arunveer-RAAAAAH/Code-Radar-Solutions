@@ -22,17 +22,4 @@ int main() {
         spaces--;
         printf("\n");
     }
-
-    //part 2
-    space=1;
-    for(int i=1;i<row-1;i++){
-        for(int j=1;j<=space;j++){
-            printf("1");
-        }
-        space++;
-        for(int k=1;k<=2*(row-i)-1;k++){
-            printf("*");
-        }
-        printf("\n");
-    }
 }
