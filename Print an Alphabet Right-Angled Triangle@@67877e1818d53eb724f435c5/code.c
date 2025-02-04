@@ -8,10 +8,10 @@ int main() {
     int row;
     scanf("%d",row);
 
-    char a;
+    char a='A';
     for(int i=0;i<row;i++){
         for(int j=1;j<=i;j++){
-            printf("%c",a++);
+            printf("%c",a+j);
         }
         printf("\n");
     }
