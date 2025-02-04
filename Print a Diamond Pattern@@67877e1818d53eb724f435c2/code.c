@@ -8,7 +8,7 @@ int main() {
     int row;
     scanf("%d",&row);
 
-    int spaces=row-1;
+    int spaces=row;
 
     //part 1
     for(int i=1;i<row;i++){
