@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&row);
 
     int spaces=row-1;
-
+    int k;
     //part 1
     for(int i=1;i<=row;i++){
         //spaces
@@ -17,14 +17,21 @@ int main() {
             printf(" ");
         }
         //printing
-        for(int k=1;k<=2*i-1;k++){
+        for(k=1;k<=2*i-1;k++){
             printf("*");
-            printf("%d",k);
         }
         spaces--;
         printf("\n");
     }
 
     //part 2
-    
+    for(int i=1;i<row;i++){
+        for(int j=1;j<=i;j++){
+            printf("1");
+        }
+        for(k;k>=2*i-1;k--){
+            printf("*");
+        }
+        printf("\n");
+    }
 }
