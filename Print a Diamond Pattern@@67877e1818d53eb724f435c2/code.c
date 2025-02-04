@@ -25,12 +25,11 @@ int main() {
     }
 
     //part 2
-    int a=row;
     for(int i=0;i<=row;i++){
         for(int j=0;j<=i;j++){
             printf("1");
         }
-        for(int k=0;k<=a--;k++){
+        for(int k=0;k<=2*(row-i);k++){
             printf("*");
         }
         printf("\n");
