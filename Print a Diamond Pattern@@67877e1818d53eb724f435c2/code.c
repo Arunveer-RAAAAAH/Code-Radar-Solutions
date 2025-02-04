@@ -30,7 +30,7 @@ int main() {
             printf("1");
         }
         for(int k=0;k<=row-1-i;k++){
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
