@@ -6,12 +6,12 @@ char* welcome() {
 
 int main() {
     int row;
-    scanf("%d",row);
+    scanf("%d",&row);
 
     char a='A';
     for(int i=0;i<row;i++){
         for(int j=1;j<=i;j++){
-            printf("%d",a++);
+            printf("%c",a+j);
         }
         printf("\n");
     }
