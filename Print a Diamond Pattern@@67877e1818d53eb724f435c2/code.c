@@ -29,7 +29,9 @@ int main() {
         for(int j=row;j>i;j--){
             printf("1");
         }
-        for
+        for(int k=1;k<=i;k++){
+            printf("*");
+        }
         printf("\n");
     }
 }
