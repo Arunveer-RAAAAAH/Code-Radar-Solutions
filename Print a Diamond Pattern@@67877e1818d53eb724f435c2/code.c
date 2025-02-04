@@ -26,7 +26,7 @@ int main() {
 
     //part 2
     for(int i=1;i<row;i++){
-        for(int j=;j<i;j++){
+        for(int j=1;j<i;j++){
             printf("1");
         }
         for(int l=k;l>=2*i-1;l--){
