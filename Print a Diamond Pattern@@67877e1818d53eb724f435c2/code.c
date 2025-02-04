@@ -13,7 +13,7 @@ int main() {
     //part 1
     for(int i=1;i<=row;i++){
         //spaces
-        for(int j=0;j<=spaces;j++){
+        for(int j=1;j<=spaces;j++){
             printf(" ");
         }
         //printing
@@ -29,6 +29,7 @@ int main() {
         for(int j=row;j>i;j--){
             printf("1");
         }
+        for
         printf("\n");
     }
 }
