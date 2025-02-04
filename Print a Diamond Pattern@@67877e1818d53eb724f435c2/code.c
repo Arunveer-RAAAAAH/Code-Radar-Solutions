@@ -13,7 +13,7 @@ int main() {
     //part 1
     for(int i=1;i<row;i++){
         //spaces
-        for(int j=1;j<spaces;j++){
+        for(int j=1;j<spaces-1;j++){
             printf("1");
         }
         //printing
