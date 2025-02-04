@@ -25,5 +25,4 @@ int main() {
     }
 
     //part 2
-    for(int i=0;)
 }
