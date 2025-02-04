@@ -29,7 +29,7 @@ int main() {
         for(int j=0;j<=i;j++){
             printf("1");
         }
-        for(int k=0;k<=2*(row-i);k++){
+        for(int k=0;k<=2*(row-i-1);k++){
             printf("*");
         }
         printf("\n");
