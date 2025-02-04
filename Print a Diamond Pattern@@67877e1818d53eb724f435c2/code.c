@@ -14,7 +14,7 @@ int main() {
     for(int i=1;i<row;i++){
         //spaces
         for(int j=1;j<=spaces;j++){
-            printf("1");
+            printf(" ");
         }
         //printing
         for(int k=1;k<=2*i-1;k++){
@@ -28,7 +28,7 @@ int main() {
     for(int i=0;i<row;i++){
         //spaces
         for(int j=0;j<i;j++){
-            printf("1");
+            printf(" ");
         }
         for(int k=row+2;k>=2*i-1;k--){
             printf("*");
