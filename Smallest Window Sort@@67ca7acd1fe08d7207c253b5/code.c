@@ -7,5 +7,5 @@ int findUnsortedSubarray(int arr[],int n){
     while(rightIndex>0 && arr[rightIndex]>=arr[rightIndex-1])
     rightIndex--;
 
-    return (rightIndex-leftIndex+1)
+    return (rightIndex-leftIndex+1);
 }
