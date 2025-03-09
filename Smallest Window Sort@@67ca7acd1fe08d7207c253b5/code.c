@@ -6,8 +6,9 @@ int findUnsortedSubarray(int arr[],int n){
 
     while(rightIndex>0 && arr[rightIndex]>=arr[rightIndex-1])
     rightIndex--;
-
+     
     if(leftIndex>=rightIndex)
     return 0;
-    return ((rightIndex-leftIndex)+1);
+
+    return (rightIndex-leftIndex+1);
 }
