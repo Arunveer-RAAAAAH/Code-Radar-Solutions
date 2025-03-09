@@ -3,13 +3,13 @@ void selectionSort(int arr[],int n){
         int index=i;
         for(int j=0;j<=n-1;j++){
             if(arr[j]>arr[index])
-            index=j
+            index=j;
         }
 
         //swapping
-        int temp=arr[min];
-        arr[min]=arr[i];
-        arr[i]=arr[min];
+        int temp=arr[index];
+        arr[index]=arr[i];
+        arr[i]=arr[index];
     }
 }
 
