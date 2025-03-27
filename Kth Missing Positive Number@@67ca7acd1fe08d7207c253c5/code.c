@@ -1,5 +1,5 @@
 int findKthMissing(int arr[],int n, int k){
-    int index=0,int Missingcounter=0, counter=0;
+    int index=0, Missingcounter=0, counter=0;
     while(Missingcounter<k){
         if(arr[index]!=counter){
             Missingcounter++;
