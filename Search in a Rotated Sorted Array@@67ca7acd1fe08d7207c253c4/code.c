@@ -1,7 +1,7 @@
 searchInRotatedArray(int arr[],int n,int target){
     int low=0, high=n-1, mid;
     while(low<=high){
-        mid=(low+high)/2
+        mid=(low+high)/2;
     
         if(arr[mid]==target)
         return mid;
